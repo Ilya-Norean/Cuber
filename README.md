@@ -20,9 +20,13 @@
   •
   <a href="#Features">Features</a>
   •
-  <a href="https://github.com/Spiderjockey02/Discord-Bot/blob/master/docs/INSTALLATION.md">Installation</a>
-  •
-  <a href="#license">License</a>
-  •
   <a href="#credits">Credits</a>
 </p>
+
+## ❓ About
+
+A cute and fun discord bot that will help make your server better!
+
+## ❗ Features
+
+**50+** commands and counting across **6** different categories!
