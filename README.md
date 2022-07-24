@@ -8,10 +8,10 @@
 
 <div align=center>
   
-[![Powered by Nextcord](https://custom-icon-badges.herokuapp.com/badge/-Powered%20by%20Nextcord-0d1620?logo=nextcord)](https://github.com/nextcord/nextcord "Powered by Nextcord Python API Wrapper")
-[![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)](https://dashboard.heroku.com/)
-![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+[![Powered by Nextcord](https://custom-icon-badges.herokuapp.com/badge/-Powered%20by%20Nextcord-0d1620?logo=nextcord)](https://github.com/nextcord/nextcord "Powered by Nextcord Python API Wrapper")  
+![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+[![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)](https://dashboard.heroku.com/)
 
 </div>
 
@@ -30,3 +30,14 @@ A cute and fun discord bot that will help make your server better!
 ## ❗ Features
 
 **50+** commands and counting across **6** different categories!
+
+*   🛡️  **Moderation**: `kick`, `ban`, `clear`, `report` 
+*   📋  **Information**: `user`, `server`
+*   😆  **Fun**: `avatar`, `ball8`, `coin`, `hotcalc`, `nightskye`, `password`, `spam` and more!
+*   🖼️  **Images**: `captcha`, `car`, `cat`, `coffe`, `fox`, `hug`, `pat`, `wasted` and more!
+*   ⚡  **Memes**: `meme`, `drake`, `pooh`, `oogway`, `sadcat`,  and more!
+*   🔥  **Other**: `afk`, `invite`, `poll`, `translate`  and more!
+
+## 📜 Credits
+
+* Thanks for Cuber icon <a href=https://github.com/DinkDonk/kitty-icon</a>DinkDonk 
