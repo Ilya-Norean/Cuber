@@ -13,4 +13,16 @@
 ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 
-  </div>
+</div>
+
+<p align="center">
+  <a href="#about">About</a>
+  •
+  <a href="#Features">Features</a>
+  •
+  <a href="https://github.com/Spiderjockey02/Discord-Bot/blob/master/docs/INSTALLATION.md">Installation</a>
+  •
+  <a href="#license">License</a>
+  •
+  <a href="#credits">Credits</a>
+</p>
