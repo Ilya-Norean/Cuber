@@ -1,5 +1,5 @@
 <h1 align="center">
-<img href='https://raw.githubusercontent.com/DinkDonk/kitty-icon/main/kitty-dark.png'>
+<img src='https://raw.githubusercontent.com/DinkDonk/kitty-icon/main/kitty-dark.png'>
 </h1>
 
 
