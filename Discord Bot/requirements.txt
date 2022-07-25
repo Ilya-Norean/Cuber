@@ -1,4 +1,2 @@
 aiohttp==3.8.1
 nextcord==2.0.0
-async-timeout==4.0.2
-asyncdagpi==4.1.3
