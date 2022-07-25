@@ -1,4 +1,9 @@
 <h1 align="center">
+<img href='https://raw.githubusercontent.com/DinkDonk/kitty-icon/main/kitty-dark.png'>
+</h1>
+
+
+<h1 align="center">
   <br>
   Cuber
   <br>
