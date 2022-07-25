@@ -55,7 +55,7 @@ A cute and fun discord bot that will help make your server better!
 
 Installation Cuber:
 
-    $ git clone https://github.com/Ilya-Norean/Cuber/
+    $ git clone https://github.com/Ilya-Norean/Cuber
 
 Installation Nextcord:
 
