@@ -18,7 +18,7 @@ class help(commands.Cog):
 
 
 	#Help
-	@nextcord.slash_command(name = 'help', description = '❕Show you command list (Exaple: /help)')
+	@nextcord.slash_command(name = 'help', description = '❕ Shows command list (Exaple: /help)')
 	async def help(self, ctx: Interaction, module: str=None):
 
 		if module == None:
@@ -92,7 +92,7 @@ class help(commands.Cog):
 
 			embed = nextcord.Embed(
 				title = '😆 Fun',
-				description = '<:green:1000729796919173220> answer : Cuber will answer on your question\n<:green:1000729796919173220> avatar : Send user avatar\n<:green:1000729796919173220> ball8 : Magic ball will answer on your question\n<:green:1000729796919173220> coin : You can flip a coinr\n<:green:1000729796919173220> cuber : Will send a Cuber for you\n<:green:1000729796919173220> emojify : Send your message as emoji\n<:green:1000729796919173220> f : Press F to paid your respect\n<:green:1000729796919173220> fact : Send a random fact\n<:green:1000729796919173220> gayrate : Find out how match you are gay\n<:green:1000729796919173220> hotcalc : Find out how match you are hot\n<:green:1000729796919173220> joke : Random Joke\n<:green:1000729796919173220> kaomoji : Send a kaomoji\n<:green:1000729796919173220> nightskye : Send a nightskye for you\n<:green:1000729796919173220> password : Generate a password for you\n<:green:1000729796919173220> quote : Random Quote\n<:green:1000729796919173220> rcolor : Random color\n<:green:1000729796919173220> spam : Spam messages\n',
+				description = '<:green:1000729796919173220> answer : Cuber will answer on your question\n<:green:1000729796919173220> avatar : Send user avatar\n<:green:1000729796919173220> ball8 : Magic ball will answer on your question\n<:green:1000729796919173220> coin : Flip a coinr\n<:green:1000729796919173220> cuber : Will send a Cuber emoji\n<:green:1000729796919173220> emojify : Send your message as emoji\n<:green:1000729796919173220> f : Press F to paid your respect\n<:green:1000729796919173220> fact : Send a random fact\n<:green:1000729796919173220> gayrate : How match you are gay?\n<:green:1000729796919173220> hotcalc : How match you are hot?\n<:green:1000729796919173220> joke : Random Joke\n<:green:1000729796919173220> kaomoji : Send a kaomoji\n<:green:1000729796919173220> nightskye : Send a nightskye\n<:green:1000729796919173220> password : Generate a password\n<:green:1000729796919173220> quote : Random Quote\n<:green:1000729796919173220> rcolor : Random color\n<:green:1000729796919173220> spam : Spam messages\n',
 				color = 0xbdda45
 				)
 
