@@ -172,7 +172,7 @@ class images(commands.Cog):
 
 
 	#Wasted
-	@nextcord.slash_command(name = 'wasted', description = '❌Make Waste to your friend (Exaple: /wasted @Cuber)')
+	@nextcord.slash_command(name = 'wasted', description = '❌Waste Avatar (Exaple: /wasted @Cuber)')
 	async def wasted(self, ctx: Interaction, user: nextcord.Member):
 
 		url = f'https://some-random-api.ml/canvas/wasted?avatar={user.avatar.url}'
@@ -184,8 +184,8 @@ class images(commands.Cog):
 		await ctx.send(embed = embed)
 
 	#Gay
-	@nextcord.slash_command(name = 'gay', description = '🏳️‍🌈Make your friend gay (Exaple: /gay @Cuber)')
-	async def gay(self, ctx: Interaction, user: nextcord.Member):
+	@nextcord.slash_command(name = 'lgbt', description = '🏳️‍🌈Lgbt Avatar(Exaple: /gay @Cuber)')
+	async def lgbt(self, ctx: Interaction, user: nextcord.Member):
 
 		url = f"https://some-random-api.ml/canvas/gay?avatar={user.avatar.url}"
 
@@ -196,7 +196,7 @@ class images(commands.Cog):
 		await ctx.send(embed = embed)
 
 	#Pixel art
-	@nextcord.slash_command(name = 'pixelart', description = '🎮Make your friend avatar pixel(Exaple: /pixelart @Cuber)')
+	@nextcord.slash_command(name = 'pixelart', description = '🎮Pixel Avatar(Exaple: /pixelart @Cuber)')
 	async def pixelart(self, ctx: Interaction, user: nextcord.Member):
 
 		url = f"https://some-random-api.ml/canvas/pixelate?avatar={user.avatar.url}"
@@ -353,7 +353,7 @@ class images(commands.Cog):
 		await ctx.send(embed = embed)
 
 	#Wink
-	@nextcord.slash_command(name = 'wink', description = '💚Wink to someone (Exaple: /wink @Cuber)')
+	@nextcord.slash_command(name = 'wink', description = '💜Wink to someone (Exaple: /wink @Cuber)')
 	async def wink(self, ctx: Interaction, user: nextcord.Member):
 
 		async with aiohttp.ClientSession() as session:
