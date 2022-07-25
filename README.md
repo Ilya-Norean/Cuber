@@ -2,7 +2,6 @@
 <img src='https://raw.githubusercontent.com/DinkDonk/kitty-icon/main/kitty-dark.png' width="180">
 </h4>
 
-
 <h1 align="center">
   <br>
   Cuber
