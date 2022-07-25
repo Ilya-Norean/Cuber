@@ -1,6 +1,6 @@
-<h1 align="center">
-<img src='https://raw.githubusercontent.com/DinkDonk/kitty-icon/main/kitty-dark.png'>
-</h1>
+<p float="center">
+<img src='https://raw.githubusercontent.com/DinkDonk/kitty-icon/main/kitty-dark.png' width="180">
+</p>
 
 
 <h1 align="center">
