@@ -16,7 +16,7 @@ class memes(commands.Cog):
 
 
 	#Random Meme
-	@nextcord.slash_command(name = 'meme', description = '🤣Send Random Meme (Exaple: /meme')
+	@nextcord.slash_command(name = 'meme', description = '🤣Random Meme (Exaple: /meme')
 	async def meme(self, ctx: Interaction):
 
 		async with aiohttp.ClientSession() as session:
@@ -45,7 +45,7 @@ class memes(commands.Cog):
 
 		
 	#Drake meme
-	@nextcord.slash_command(name = 'drake', description = '😎Send Drake meme for you (Exaple: /pooh Mee6 Cuber)')
+	@nextcord.slash_command(name = 'drake', description = '😎Drake meme for you (Exaple: /pooh Mee6 Cuber)')
 	async def drake(self, ctx: Interaction,  *, text1: str, text2: str):
 		embed = nextcord.Embed(
 			title = 'Drake meme',
@@ -55,7 +55,7 @@ class memes(commands.Cog):
 		await ctx.send(embed = embed)
 
 	#Pooh meme
-	@nextcord.slash_command(name = 'pooh', description = '🍯Send Pooh meme (Exaple: /pooh Mee6 Cuber)')
+	@nextcord.slash_command(name = 'pooh', description = '🍯Pooh meme (Exaple: /pooh Mee6 Cuber)')
 	async def pooh(self, ctx: Interaction, *, text1: str, text2: str):
 		embed = nextcord.Embed(
 			title = 'Pooh meme',
@@ -65,7 +65,7 @@ class memes(commands.Cog):
 		await ctx.send(embed = embed)
 
 	#Oogway meme !
-	@nextcord.slash_command(name = 'oogway', description = '🐢Send Oogway meme (Exaple: /oogway Go forth on your path, as it exists only through your walking')
+	@nextcord.slash_command(name = 'oogway', description = '🐢Oogway meme (Exaple: /oogway Go forth on your path, as it exists only through your walking')
 	async def oogway(self, ctx: Interaction, *, text: str):
 		embed = nextcord.Embed(
 			title = 'Oogway meme',
