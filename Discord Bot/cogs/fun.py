@@ -99,7 +99,7 @@ class fun(commands.Cog):
 		await ctx.send(embed = embed)
 
 	#Gayrate
-	@nextcord.slash_command(name = 'gayrate', description = '🌈Find out how much gay you are (Exaple: /gayrate @Cuber#1168)')
+	@nextcord.slash_command(name = 'gayrate', description = '🌈How much gay you are gay? (Exaple: /gayrate @Cuber#1168)')
 	async def gayrate(self, ctx: Interaction, user: nextcord.Member):
 		user = user.name + ' is'
 
@@ -111,7 +111,7 @@ class fun(commands.Cog):
 		await ctx.send(embed = embed)
 
 	#Hotcalc
-	@nextcord.slash_command(name = 'hotcalc', description = '💖Find out how much you are hot (Exaple: /hotcalc @Cuber#1168)')
+	@nextcord.slash_command(name = 'hotcalc', description = '💖How much you are hot? (Exaple: /hotcalc @Cuber#1168)')
 	async def hotcalc(self, ctx: Interaction, user: nextcord.Member):
 		user = user.name
 
@@ -162,7 +162,7 @@ class fun(commands.Cog):
 		await ctx.send(embed = embed)
 
 	#Joke
-	@nextcord.slash_command(name = 'joke', description = '😜Send a Random Jokee (Exaple: /jok)')
+	@nextcord.slash_command(name = 'joke', description = '😜Send a Random Joke (Exaple: /jok)')
 	async def joke(self, ctx: Interaction):
 
 		async with aiohttp.ClientSession() as session:
@@ -227,7 +227,7 @@ class fun(commands.Cog):
 		await ctx.send(embed = embed)	
 
 	#Coin 
-	@nextcord.slash_command(name = 'coin', description = '💲You can flip a coin (Exaple: /coin)')
+	@nextcord.slash_command(name = 'coin', description = '💲Flip a coin (Exaple: /coin)')
 	async def coin(self, ctx: Interaction, ):
 
 		coin = ['heads', 'tails']
@@ -280,7 +280,7 @@ class fun(commands.Cog):
 		await ctx.send('<:kittydark:992031413287268373> ')
 
 	#Afk
-	@nextcord.slash_command(name = 'afk', description = '✅Will notify other participants of his absence in the near future (Exaple: /afk)')
+	@nextcord.slash_command(name = 'afk', description = '🌜Afk (Exaple: /afk)')
 	async def afk(self, ctx: Interaction):
 		await ctx.send(f':wave: | See you later!')
 
