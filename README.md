@@ -29,11 +29,11 @@
 </p>
 
 ## ❓ About
-
+----------
 A cute and fun discord bot that will help make your server better!
 
 ## ❗ Features
-
+----------
 **50+** commands and counting across **6** different categories!
 
 *   🛡️  **Moderation**: `kick`, `ban`, `clear`, `report` 
@@ -42,6 +42,21 @@ A cute and fun discord bot that will help make your server better!
 *   🖼️  **Images**: `captcha`, `car`, `cat`, `coffe`, `fox`, `hug`, `pat`, `wasted` and more!
 *   ⚡  **Memes**: `meme`, `drake`, `pooh`, `oogway`, `sadcat`,  and more!
 *   🔥  **Other**: `afk`, `invite`, `poll`, `translate`  and more!
+
+## 🔗 Installing
+----------
+**Python 3.10 or higher is required**
+
+Installation Nextcord:
+
+.. code:: sh
+
+    # Linux/macOS
+    python3 -m pip install -U discord.py
+
+    # Windows
+    py -3 -m pip install -U discord.py
+
 
 ## 📜 Credits
 
