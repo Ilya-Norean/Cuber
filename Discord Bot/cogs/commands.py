@@ -71,7 +71,7 @@ class cmd(commands.Cog):
 
 		embed = nextcord.Embed(
 			title = '🤖 Bot Source code',
-			description = f"Here's the github link for the Bot: **<link>**",
+			description = f"Here's the github link for the Bot: **https://github.com/Ilya-Norean/Cuber**",
 			color = nextcord.Color.random()
 			)
 
