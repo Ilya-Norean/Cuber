@@ -1,5 +1,5 @@
 <h4 align="center">
-<img src='https://raw.githubusercontent.com/DinkDonk/kitty-icon/main/kitty-dark.png' width="360">
+<img src='https://raw.githubusercontent.com/DinkDonk/kitty-icon/main/kitty-dark.png' width="180">
 </h4>
 
 
