@@ -38,9 +38,9 @@ A cute and fun discord bot that will help make your server better!
 
 *   🛡️  **Moderation**: `kick`, `ban`, `clear`, `report` 
 *   📋  **Information**: `user`, `server`
-*   😆  **Fun**: `avatar`, `ball8`, `coin`, `hotcalc`, `nightskye`, `password`, `spam` and more!
+*   🎉  **Fun**: `avatar`, `ball8`, `coin`, `hotcalc`, `nightskye`, `password`, `spam` and more!
 *   🖼️  **Images**: `captcha`, `car`, `cat`, `coffe`, `fox`, `hug`, `pat`, `wasted` and more!
-*   ⚡  **Memes**: `meme`, `drake`, `pooh`, `oogway`, `sadcat`,  and more!
+*   😆  **Memes**: `meme`, `drake`, `pooh`, `oogway`, `sadcat`,  and more!
 *   🔥  **Other**: `afk`, `invite`, `poll`, `translate`  and more!
 
 ## 🔗 Installing
