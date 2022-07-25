@@ -40,4 +40,4 @@ A cute and fun discord bot that will help make your server better!
 
 ## 📜 Credits
 
-<h3>Thanks for Cuber icon <a href=https://github.com/DinkDonk/kitty-icon</a>DinkDonk</h3>
+<h3>Thanks for Cuber icon <a href=https://github.com/DinkDonk/kitty-icon>DinkDonk</h3>
