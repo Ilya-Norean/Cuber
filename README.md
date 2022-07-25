@@ -43,6 +43,12 @@ A cute and fun discord bot that will help make your server better!
 *   😆  **Memes**: `meme`, `drake`, `pooh`, `oogway`, `sadcat`,  and more!
 *   🔥  **Other**: `afk`, `invite`, `poll`, `translate`  and more!
 
+## 📝 To-Do
+----------
+
+* Adding tickets
+* Adding giveaway commands
+
 ## 🔗 Installing
 ----------
 **Python 3.10 or higher is required**
