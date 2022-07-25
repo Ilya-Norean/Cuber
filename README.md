@@ -55,6 +55,15 @@ Installation Nextcord:
     # Windows
     py -3 -m pip install -U nextcord
 
+Or installation from requirements:
+
+    # Linux/macOS
+    python3 -m pip install -U requirements.txt
+
+    # Windows
+    py -3 -m pip install -U requirements.txt
+
+
 
 ## 📜 Credits
 
