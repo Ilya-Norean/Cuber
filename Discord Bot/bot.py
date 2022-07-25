@@ -19,7 +19,7 @@ token = 'Your Token'
 #-----Ready?-----
 @bot.event
 async def on_ready():
-    await bot.change_presence(activity=nextcord.Game('Cuber Love'))
+    await bot.change_presence(activity=nextcord.Game('Cuber Love ❤'))
 
     print('Connected to bot: {}'.format(bot.user.name))
     print('Bot ID: {}'.format(bot.user.id))
