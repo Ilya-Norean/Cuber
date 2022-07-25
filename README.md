@@ -49,8 +49,6 @@ A cute and fun discord bot that will help make your server better!
 
 Installation Nextcord:
 
-.. code:: sh
-
     # Linux/macOS
     python3 -m pip install -U discord.py
 
