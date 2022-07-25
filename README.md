@@ -53,21 +53,25 @@ A cute and fun discord bot that will help make your server better!
 ----------
 **Python 3.10 or higher is required**
 
+Installation Cuber:
+
+    $ git clone https://github.com/Ilya-Norean/Cuber/
+
 Installation Nextcord:
 
-    # Linux/macOS
-    python3 -m pip install -U nextcord
+    Linux/macOS
+    $ python3 -m pip install -U nextcord
 
-    # Windows
-    py -3 -m pip install -U nextcord
+    Windows
+    $ py -3 -m pip install -U nextcord
 
 Or installation from requirements:
 
-    # Linux/macOS
-    python3 -m pip install -U requirements.txt
+    Linux/macOS
+    $ python3 -m pip install -U requirements.txt
 
-    # Windows
-    py -3 -m pip install -U requirements.txt
+    Windows
+    $ py -3 -m pip install -U requirements.txt
 
 
 
