@@ -1,5 +1,6 @@
 <h4 align="center">
-<img src='https://raw.githubusercontent.com/DinkDonk/kitty-icon/main/kitty-dark.png' width="180">
+
+<a href = https://github.com/DinkDonk/kitty-icon>DinkDonk><img src='https://raw.githubusercontent.com/DinkDonk/kitty-icon/main/kitty-dark.png' width="180"></a>
 </h4>
 
 <h1 align="center">
