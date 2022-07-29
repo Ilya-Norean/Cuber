@@ -5,15 +5,10 @@ import asyncio
 import aiohttp
 import time
 import os
-import datetime
 
 from nextcord.ext import commands
 from nextcord import Interaction
 from nextcord.ext import application_checks
-
-from datetime import datetime
-from datetime import timedelta
-
 
 
 
@@ -21,7 +16,6 @@ from datetime import timedelta
 class moderation(commands.Cog):
 	def __init__(self, bot: commands.Bot):
 		self.bot = bot
-
 
 	#Clear
 	@nextcord.slash_command(name = 'clear', description = '❌Clear messages (Exaple: /clear 10) (Only for admins)')
