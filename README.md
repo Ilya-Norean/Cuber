@@ -70,7 +70,8 @@ Or installation from requirements:
 
 ## 📜 Credits
 
-<h3>Thanks for Cuber icon <a href=https://github.com/DinkDonk/kitty-icon>DinkDonk</h3>
+<h3>Thanks for Cuber icon <a href=https://www.youtube.com/channel/UCwBjRPUuOefh6iFvG6zLhrg>James S</h3>
+<h3>Thanks for YouTube tutorials <a href=https://github.com/DinkDonk/kitty-icon>DinkDonk</h3>
 
 ## 📝 P.S.
 <h4>The bot is under development and new features and commands are constantly being added to it. Follow the loves!</h4>
