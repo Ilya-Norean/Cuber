@@ -52,60 +52,33 @@ class moderation(commands.Cog):
 	#Ban
 	@nextcord.slash_command(name = 'ban', description = '❌Ban the user (Exaple: /ban @Mee6')
 	@application_checks.has_permissions(administrator=True)
-	async def ban(self, ctx: Interaction, user: nextcord.Member, reason: str = None):
-
-		if reason is None:
-
-			await user.ban()
-
-			embed = nextcord.Embed(
-				title = '❌Ban',
-				description = f'{user.name} has been banned from {ctx.guild.name}.',
-				color = nextcord.Color.red()
-				)
-
-			await ctx.send(embed = embed)
-
-		else:
-
-			await user.ban(reason = reason)
-
-			embed = nextcord.Embed(
-				title = '❌Ban',
-				description = f'{user.name} has been banned from {ctx.guild.name}. Reason: {reason}.',
-				color = nextcord.Color.red()
-				)
-
-			await ctx.send(embed = embed)
+	async def ban(self, ctx: Interaction, user: nextcord.Member):
+		
+		await user.ban
+		
+		embed = nextcord.Embed(
+			title = '❌Ban',
+			description = f'{user.name} has been banned from {ctx.guild.name}.',
+			color = nextcord.Color.red()
+		)
+		
+		await ctx.send(embed = embed)
+			
 
 	#Kick
 	@nextcord.slash_command(name = 'kick', description = '❌Kick the user (Exaple: /kick @Mee6')
 	@application_checks.has_permissions(administrator=True)
-	async def kick(self, ctx: Interaction, user: nextcord.Member, reason: str = None):
+	async def kick(self, ctx: Interaction, user: nextcord.Member):
 
-		if reason is None:
-
-			await user.kick()
-
-			embed = nextcord.Embed(
-				title = '❌Kick',
-				description = f'{user.name} has kicked from {ctx.guild.name}.',
-				color = nextcord.Color.red()
-				)
-
-			await ctx.send(embed = embed)
-
-		else:
-
-			await user.kick(reason = reason)
-
-			embed = nextcord.Embed(
-				title = '❌Kick',
-				description = f'{user.name} has been kicked from {ctx.guild.name}. Reason: {reason}.',
-				color = nextcord.Color.red()
-				)
-
-			await ctx.send(embed = embed)
+		await user.ban
+		
+		embed = nextcord.Embed(
+			title = '❌Ban',
+			description = f'{user.name} has been banned from {ctx.guild.name}.',
+			color = nextcord.Color.red()
+		)
+		
+		await ctx.send(embed = embed)
 
 
 	#Report
@@ -124,7 +97,6 @@ class moderation(commands.Cog):
 			)
 		
 
-		 #­
 
 		await channel.send(staff.mention, embed = embed)
 		
