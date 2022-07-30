@@ -10,12 +10,10 @@ from nextcord.ext import commands
 from nextcord import Interaction
 from nextcord.ext import application_checks
 
-
 #-----Commands----- 
 class help(commands.Cog):
 	def __init__(self, bot: commands.Bot):
 		self.bot = bot
-
 
 	#Help
 	@nextcord.slash_command(name = 'help', description = '❕ Shows command list (Exaple: /help)')
