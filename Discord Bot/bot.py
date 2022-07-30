@@ -6,7 +6,6 @@ from nextcord import Interaction
 
 import os
 
-
 #-----Var-----
 intents = nextcord.Intents.default()
 
