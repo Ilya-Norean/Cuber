@@ -6,10 +6,8 @@ import aiohttp
 import time
 import os
 
-
 from nextcord.ext import commands
 from nextcord import Interaction
-
 
 #-----Commands----- 
 class images(commands.Cog):
@@ -369,8 +367,6 @@ class images(commands.Cog):
 		embed.set_image(url = winkjson['link'])
 
 		await ctx.send(embed = embed)
-
-
 
 
 #-----Run-----
