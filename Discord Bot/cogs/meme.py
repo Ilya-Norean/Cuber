@@ -14,7 +14,6 @@ class memes(commands.Cog):
 	def __init__(self, bot: commands.Bot):
 		self.bot = bot
 
-
 	#Random Meme
 	@nextcord.slash_command(name = 'meme', description = '🤣Random Meme (Exaple: /meme')
 	async def meme(self, ctx: Interaction):
@@ -43,9 +42,8 @@ class memes(commands.Cog):
 
 		await vote.add_reaction('❤')
 
-		
 	#Drake meme
-	@nextcord.slash_command(name = 'drake', description = '😎Drake meme for you (Exaple: /pooh Mee6 Cuber)')
+	@nextcord.slash_command(name = 'drake', description = '😎Drake meme (Exaple: /pooh Mee6 Cuber)')
 	async def drake(self, ctx: Interaction,  *, text1: str, text2: str):
 		embed = nextcord.Embed(
 			title = 'Drake meme',
@@ -93,7 +91,6 @@ class memes(commands.Cog):
 			).set_image(url = f'https://api.popcat.xyz/pikachu?text={text}')
 
 		await ctx.send(embed = embed)
-
 
 
 
