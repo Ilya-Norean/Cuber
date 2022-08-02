@@ -15,7 +15,7 @@ bot = commands.Bot(intents = intents)
 
 bot.remove_command('help')
 
-token = 'OTkyMDExMDY3NDM1NzgyMTY1.GAR7qI.6SUbB1-3xqBnm8bDJ_BVfQZF2h6zBmkrbTWKbk'
+token = 'Your Token'
 
 #-----Ready?-----
 @bot.event
