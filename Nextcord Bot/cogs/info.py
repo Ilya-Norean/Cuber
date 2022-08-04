@@ -76,6 +76,9 @@ class info(commands.Cog):
 		embed.add_field(name = 'Verification Level', value = verificationlevel, inline = True)
 		
 		await ctx.send(embed = embed)
+	
+	#Bot Info
+	#Comming Soon
 
 
 #-----Run-----
